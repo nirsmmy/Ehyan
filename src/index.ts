@@ -31,10 +31,9 @@ class Ehyan {
   private _messageHandler(): void {
     this._bot.on('messageCreate', (msg: Message) => {
       if (msg.author.id === this._bot.user?.id) return;
-      console.log(msg);
 
       if (!msg.content.match('ええやん')) return;
-
+      console.log(`Detected Ehyan: ${msg.author.tag}`);
       msg.channel.send('ええやんいただきましたっ！\nn日ぶりn回目');
     });
   }
