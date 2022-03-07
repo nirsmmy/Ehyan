@@ -1,0 +1,29 @@
+{
+  "name": "Ehyan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Neiro Somemiya <smmy@neiro.work>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .dist",
+    "tsc-init": "tsc --init",
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "^2.5.1"
+  }
+}
